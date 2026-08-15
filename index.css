@@ -29,7 +29,7 @@ li { font-size: 1.05em; line-height: 1.7; }
 }
 
 .color-acento {
-    color: blueviolet;
+    color: rgb(255, 136, 0);
 }
 
 .button,
@@ -438,13 +438,21 @@ header nav a.active {
     margin-top: 20px;
 }
 
+.button-primary {
+    background: rgb(47, 185, 47);
+}
+
+.button-primary:hover {
+    background: rgb(0, 96, 0);
+}
+
 .button-secondary {
-    background: transparent;
+    background: blueviolet;
 }
 
 .button-secondary:hover {
-    background: white;
-    color: #222;
+    background: rgb(101, 33, 165);
+    color: #ffffff;
 }
 
 footer {
